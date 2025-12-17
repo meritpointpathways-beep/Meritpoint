@@ -1,15 +1,21 @@
 nav:
-  - name: "Home"
-    url: "/Meritpoint/"
-  - name: "Services"
-    url: "/Meritpoint/services/"
-  - name: "Career Pathways"
-    url: "/Meritpoint/career-pathways/"
-  - name: "Funding"
-    url: "/Meritpoint/funding/"
-  - name: "Employers"
-    url: "/Meritpoint/employers/"
-  - name: "About"
-    url: "/Meritpoint/about/"
-  - name: "Contact"
-    url: "/Meritpoint/contact/"
+  - title: "Home"
+    url: "/"
+
+  - title: "Services"
+    url: "/services/"
+
+  - title: "Career Pathways"
+    url: "/career-pathways/"
+
+  - title: "Funding"
+    url: "/funding/"
+
+  - title: "Employers"
+    url: "/employers/"
+
+  - title: "About"
+    url: "/about/"
+
+  - title: "Contact"
+    url: "/contact/"
