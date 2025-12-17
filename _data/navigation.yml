@@ -11,20 +11,26 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "Services"
-      section: services
-    - title: "Portfolio"
-      section: portfolio
-    - title: "About"
-      section: about
-    - title: "Timeline"
-      section: timeline
-    - title: "Team"
-      section: team
-    - title: "Contact"
-      section: contact
-    - title: "Theme Source"
-      url: https://github.com/raviriley/agency-jekyll-theme/
+  - title: "Home"
+    url: "/"
+
+  - title: "Services"
+    url: "/services/"
+
+  - title: "Career Pathways"
+    url: "/career-pathways/"
+
+  - title: "Funding"
+    url: "/funding/"
+
+  - title: "For Employers"
+    url: "/employers/"
+
+  - title: "About"
+    url: "/about/"
+
+  - title: "Contact"
+    url: "/contact/"
 en-US:
   <<: *DEFAULT_EN
 en-CA:
