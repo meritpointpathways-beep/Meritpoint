@@ -68,3 +68,23 @@ Ready to start?
 - **Website:** MeritPoint.ca  
 
 → Go to the [Contact page]({{ "/contact/" | relative_url }}) to send a request or book a free consultation.
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var btn = document.querySelector('.navbar-toggler');
+  if (!btn) return;
+
+  var targetSel = btn.getAttribute('data-bs-target') || btn.getAttribute('data-target');
+  if (!targetSel) return;
+
+  var target = document.querySelector(targetSel);
+  if (!target) return;
+
+  btn.addEventListener('click', function (e) {
+    e.preventDefault();
+    target.classList.toggle('show');
+
+    var expanded = btn.getAttribute('aria-expanded') === 'true';
+    btn.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+  });
+});
+</script>
