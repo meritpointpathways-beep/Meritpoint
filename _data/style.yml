@@ -1,8 +1,17 @@
-#Color Customization
-#highlight: "#54bfff"
-#white: "#FF0000"
-#black: "#000"
+# Color Customization
+highlight: "#D4AF37"   # Gold accent (buttons, links, icons)
+white: "#F7F9FC"       # Light background
+black: "#0B1F3A"       # Navy (main dark)
 
-#Image Customization
+# Extra colors (adds stronger control / prevents unreadable text)
+primary: "#0B1F3A"     # Navy (headings, nav background if used)
+secondary: "#08162A"   # Darker navy (optional)
+text: "#0F172A"        # Near-black for body text
+muted: "#475569"       # Muted text (optional)
+link: "#D4AF37"        # Link color
+button-text: "#0B1F3A" # Text on gold buttons
+nav-text: "#F7F9FC"    # Text on dark navbar
+
+# Image Customization
 header-image: "../img/header-bg.jpg"
-contact-image: "../img/map-image.png"
+contact-image: "../img/map-image.png
