@@ -69,14 +69,6 @@ Ready to start?
 
 → Go to the [Contact page]({{ "/contact/" | relative_url }}) to send a request or book a free consultation.
 <script>
-document.addEventListener('DOMContentLoaded', function () {
-  var btn = document.querySelector('.navbar-toggler');
-  if (!btn) return;
-
-  var targetSel = btn.getAttribute('data-bs-target') || btn.getAttribute('data-target');
-  if (!targetSel) return;
-
-<script>
 (function () {
   // Fallback toggle (works even if Bootstrap JS isn't loading)
   function getTarget(btn) {
