@@ -20,7 +20,7 @@ baseurl: "/Meritpoint" # the subpath of your site, e.g. /blog
 title      : "MeritPoint Pathways"
 email      : "info@meritpoint.com" #this is also the email contact forms will go to
 description: "Education and career guidance with step-by-step program selection, funding (OSAP) support, and career pathways."
-author     : Your Name
+author     : "Meritpoint Pathways"
 # logo:     #optional, defaults to site title
   # path: assets\img\clients\creative-market.jpg
   # height: 60 #height in px, defaults to 52px
@@ -28,7 +28,7 @@ author     : Your Name
 locale: "en-US" # See available languages in _data/sitetext.yml
 
 analytics:
-  google: #Google Analytics tracking code here
+  google: "" #Google Analytics tracking code here
 
 collections:
   portfolio:
