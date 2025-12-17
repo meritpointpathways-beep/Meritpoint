@@ -9,96 +9,101 @@
 
 # English (default)
 # -----------------
-en: &DEFAULT_EN
+en-US:
+  # HEADER / HERO
   header:
-  title: "MeritPoint Pathways"
-  text: "Education funding guidance • Career pathways • Job readiness"
-  button: "Book a Free Consultation"
-  buttonlink: "#contact"
+    title: "MeritPoint Pathways"
+    text: "Education and career guidance with step-by-step program planning, funding support (OSAP), and clear career roadmaps."
+    button: "Book a Free Consultation"
+    buttonlink: "/Meritpoint/contact/"
 
-# SERVICES
-services:
-  title: "What We Help With"
-  text: "Clear, step-by-step guidance for students, working professionals, and career changers—especially newcomers."
-  section: services
-  list:
-    - title: "Program & Career Planning"
-      desc: "We help you choose the right program and map a realistic career plan based on your goals, timeline, budget, and current experience."
-      icon: fas fa-route
-    - title: "Government Funding Guidance"
-      desc: "Support understanding and applying for options like OSAP and Better Jobs Ontario (eligibility varies). We explain what can be covered—tuition, books, supplies, and sometimes living costs."
-      icon: fas fa-hand-holding-usd
-    - title: "Employment & Career Progression"
-      desc: "Resume/LinkedIn direction, job-search strategy, and role matching based on your skill set—plus support for employers seeking job-ready talent."
-      icon: fas fa-briefcase
+  # SERVICES
+  services:
+    title: "What We Help With"
+    text: "Clear, step-by-step guidance for students, working professionals, and career changers—especially newcomers."
+    section: services
+    list:
+      - title: "Program & Career Planning"
+        desc: "We help you choose the right program and map a realistic career plan based on your goals, timeline, budget, and experience."
+        icon: fas fa-route
+      - title: "Government Funding Guidance"
+        desc: "Guidance for options like OSAP and Better Jobs Ontario (eligibility varies). We explain what may be covered—tuition, books, supplies, and sometimes living costs."
+        icon: fas fa-hand-holding-usd
+      - title: "Employment & Career Progression"
+        desc: "Job-search direction, role targeting based on your skill set, and support for employers seeking motivated talent."
+        icon: fas fa-briefcase
 
-# PORTFOLIO (the card/grid section)
-portfolio:
-  title: "Career Pathways Library"
-  text: "Explore detailed guides across Skilled Trades, Healthcare, and STEM—plus professional designations and licensing routes."
-  section: portfolio
-  closebutton: "Close Guide"
+  # PORTFOLIO
+  portfolio:
+    title: "Career Pathways Library"
+    text: "Explore detailed guides across Skilled Trades, Healthcare, and STEM—plus professional designations and licensing routes."
+    section: portfolio
+    closebutton: "Close"
 
-# ABOUT / PROCESS (timeline section)
-timeline:
-  title: "How It Works"
-  text: "A simple process—from first call to a clear plan."
-  section: timeline
-  events:
-    - title: "1) Free consultation"
-      year: ""
-      desc: "Tell us your background, goals, and constraints. No pressure—just clarity."
-      image: assets/img/timeline/1.jpg
-      alt:
-    - title: "2) Eligibility & options"
-      year: ""
-      desc: "We review program fit, timelines, and potential funding pathways based on your situation."
-      image: assets/img/timeline/2.jpg
-      alt:
-    - title: "3) Step-by-step plan"
-      year: ""
-      desc: "You get a structured roadmap: prerequisites, applications, documents, and next actions."
-      image: assets/img/timeline/3.jpg
-      alt:
-    - title: "4) Applications & next steps"
-      year: ""
-      desc: "We support you through applications and help you prepare for job outcomes."
-      image: assets/img/timeline/4.jpg
-      alt:
-  end: "Start your\nnext chapter"
+  # TIMELINE / PROCESS
+  timeline:
+    title: "How It Works"
+    text: "A simple process—from first call to a clear plan."
+    section: timeline
+    events:
+      - title: "1) Free consultation"
+        year: ""
+        desc: "Tell us your background, goals, and constraints. No pressure—just clarity."
+        image: assets/img/timeline/1.jpg
+        alt:
+      - title: "2) Eligibility & options"
+        year: ""
+        desc: "We review program fit, timelines, and potential funding pathways based on your situation."
+        image: assets/img/timeline/2.jpg
+        alt:
+      - title: "3) Step-by-step plan"
+        year: ""
+        desc: "You get a structured roadmap: prerequisites, applications, documents, and next actions."
+        image: assets/img/timeline/3.jpg
+        alt:
+      - title: "4) Applications & next steps"
+        year: ""
+        desc: "We support you through applications and help you prepare for job outcomes."
+        image: assets/img/timeline/4.jpg
+        alt:
+    end: "Start your\nnext chapter"
 
-# TEAM (keep it simple if you don’t want names yet)
-team:
-  title: "Client-Focused Support"
-  text: "We’re building a guidance-first platform that prioritizes clarity, honesty, and practical next steps."
-  subtext: "Support is available in multiple languages, with a strong focus on learners and professionals from the Indian subcontinent and newcomer communities."
-  section: team
+  # TEAM (keep generic if you don't want names)
+  team:
+    title: "Client-Focused Support"
+    text: "We’re building a guidance-first platform that prioritizes clarity, honesty, and practical next steps."
+    subtext: "Support is available in multiple languages, with a strong focus on newcomer communities."
+    section: team
 
-# CONTACT (your CTA)
-contact:
-  title: "Request Information"
-  text: "Book a free consultation or send a request and we’ll get back to you."
-  section: contact
-  name: "Full Name*"
-  name-validation: "Please enter your name."
-  email: "Email*"
-  email-validation: "Please enter your email address."
-  phone: "Phone (optional)"
-  phone-validation: ""
-  message: "What are you looking for? (Program / Funding / Career / Hiring)"
-  message-validation: "Please add a short message."
-  subject: "New website inquiry"
-  submit: "Send Request"
+  # CONTACT FORM TEXT
+  contact:
+    title: "Request Information"
+    text: "Book a free consultation or send a request and we’ll get back to you."
+    section: contact
+    name: "Full Name*"
+    name-validation: "Please enter your name."
+    email: "Email*"
+    email-validation: "Please enter your email address."
+    phone: "Phone (optional)"
+    phone-validation: ""
+    message: "What are you looking for? (Program / Funding / Career / Hiring)"
+    message-validation: "Please add a short message."
+    subject: "New website inquiry"
+    submit: "Send Request"
 
-# FOOTER (short + real)
-footer:
-  legal: "Privacy Policy"
-  social:
-    - url: "https://www.instagram.com/"
-      icon: "fab fa-instagram"
-    - url: "https://www.tiktok.com/"
-      icon: "fab fa-tiktok"
-es-ES:
-  <<: *DEFAULT_ES
-es-CO:
-  <<: *DEFAULT_ES
+  # FOOTER SOCIALS
+  footer:
+    legal: "Privacy Policy"
+    social:
+      - url: "mailto:info@meritpoint.ca"
+        icon: "fas fa-envelope"
+      - url: "tel:+14378823664"
+        icon: "fas fa-phone"
+      - url: "https://MeritPoint.ca"
+        icon: "fas fa-globe"
+      - url: "https://docs.google.com/forms/d/e/1FAIpQLScDpbsNOOw67Fpuw5e6sZjkYzZf6iuP6OrcAl5bmmX2wgs1_A/viewform?usp=header"
+        icon: "fas fa-clipboard-list"
+      - url: "https://www.instagram.com/"
+        icon: "fab fa-instagram"
+      - url: "https://www.tiktok.com/"
+        icon: "fab fa-tiktok"
