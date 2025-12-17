@@ -76,15 +76,28 @@ document.addEventListener('DOMContentLoaded', function () {
   var targetSel = btn.getAttribute('data-bs-target') || btn.getAttribute('data-target');
   if (!targetSel) return;
 
-  var target = document.querySelector(targetSel);
-  if (!target) return;
+<script>
+(function () {
+  // Fallback toggle (works even if Bootstrap JS isn't loading)
+  function getTarget(btn) {
+    var sel = btn.getAttribute('data-bs-target') || btn.getAttribute('data-target');
+    if (sel) return document.querySelector(sel);
+    return document.querySelector('#navbarResponsive') || document.querySelector('.navbar-collapse');
+  }
 
-  btn.addEventListener('click', function (e) {
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest('.navbar-toggler');
+    if (!btn) return;
+
     e.preventDefault();
+
+    var target = getTarget(btn);
+    if (!target) return;
+
     target.classList.toggle('show');
 
     var expanded = btn.getAttribute('aria-expanded') === 'true';
     btn.setAttribute('aria-expanded', expanded ? 'false' : 'true');
-  });
-});
+  }, true);
+})();
 </script>
