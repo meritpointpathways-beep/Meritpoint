@@ -1,15 +1,15 @@
 nav:
-  - title: "Services"
-    section: services
-
-  - title: "Career Paths"
-    section: portfolio
-
-  - title: "About"
-    section: about
-
-  - title: "Team"
-    section: team
-
-  - title: "Contact"
-    section: contact
+  - name: "Home"
+    url: "/Meritpoint/"
+  - name: "Services"
+    url: "/Meritpoint/services/"
+  - name: "Career Pathways"
+    url: "/Meritpoint/career-pathways/"
+  - name: "Funding"
+    url: "/Meritpoint/funding/"
+  - name: "Employers"
+    url: "/Meritpoint/employers/"
+  - name: "About"
+    url: "/Meritpoint/about/"
+  - name: "Contact"
+    url: "/Meritpoint/contact/"
