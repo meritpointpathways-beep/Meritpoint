@@ -15,6 +15,7 @@ title: "MeritPoint Pathways"
 email: "info@meritpoint.com"
 description: "Education and career guidance with step-by-step program selection, funding (OSAP) support, and career pathways."
 author: "MeritPoint Pathways"
+use_custom_nav: false
 
 # Localization
 locale: "en-US" # See available languages in _data/sitetext.yml
