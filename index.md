@@ -93,25 +93,24 @@ permalink: /
   </div>
 </section>
 
-<!-- PROJECTS / PORTFOLIO -->
+<!-- PATHWAYS / PORTFOLIO -->
 <section class="page-section bg-light" id="projects">
   <div class="container">
     <div class="text-center">
       <h2 class="section-heading text-uppercase">Career Pathways</h2>
       <h3 class="section-subheading text-muted">
-        Explore popular pathways — detail pages coming next.
+        Browse popular pathways — click any tile to view details (pages will be filled in next).
       </h3>
     </div>
 
     <div class="row">
+
       <!-- 1 -->
       <div class="col-lg-4 col-sm-6 mb-4">
         <div class="portfolio-item">
-          <a class="portfolio-link" href="{{ '/career-pathways/' | relative_url }}">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-            </div>
-            <img class="img-fluid" src="{{ '/assets/img/portfolio/01-thumbnail.jpg' | relative_url }}" alt="PSW">
+          <a class="portfolio-link" href="{{ '/pathways/psw/' | relative_url }}">
+            <div class="portfolio-hover"><div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div></div>
+            <img class="img-fluid" src="{{ '/assets/img/portfolio/01-thumbnail.jpg' | relative_url }}" alt="Personal Support Worker (PSW)">
           </a>
           <div class="portfolio-caption">
             <div class="portfolio-caption-heading">PSW</div>
@@ -123,11 +122,9 @@ permalink: /
       <!-- 2 -->
       <div class="col-lg-4 col-sm-6 mb-4">
         <div class="portfolio-item">
-          <a class="portfolio-link" href="{{ '/career-pathways/' | relative_url }}">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-            </div>
-            <img class="img-fluid" src="{{ '/assets/img/portfolio/02-thumbnail.jpg' | relative_url }}" alt="HVAC">
+          <a class="portfolio-link" href="{{ '/pathways/hvac/' | relative_url }}">
+            <div class="portfolio-hover"><div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div></div>
+            <img class="img-fluid" src="{{ '/assets/img/portfolio/02-thumbnail.jpg' | relative_url }}" alt="HVAC Technician">
           </a>
           <div class="portfolio-caption">
             <div class="portfolio-caption-heading">HVAC Technician</div>
@@ -139,11 +136,9 @@ permalink: /
       <!-- 3 -->
       <div class="col-lg-4 col-sm-6 mb-4">
         <div class="portfolio-item">
-          <a class="portfolio-link" href="{{ '/career-pathways/' | relative_url }}">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-            </div>
-            <img class="img-fluid" src="{{ '/assets/img/portfolio/03-thumbnail.jpg' | relative_url }}" alt="Accounting / CPA">
+          <a class="portfolio-link" href="{{ '/pathways/accounting-cpa/' | relative_url }}">
+            <div class="portfolio-hover"><div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div></div>
+            <img class="img-fluid" src="{{ '/assets/img/portfolio/03-thumbnail.jpg' | relative_url }}" alt="Accounting to CPA">
           </a>
           <div class="portfolio-caption">
             <div class="portfolio-caption-heading">Accounting → CPA</div>
@@ -153,12 +148,10 @@ permalink: /
       </div>
 
       <!-- 4 -->
-      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+      <div class="col-lg-4 col-sm-6 mb-4">
         <div class="portfolio-item">
-          <a class="portfolio-link" href="{{ '/career-pathways/' | relative_url }}">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-            </div>
+          <a class="portfolio-link" href="{{ '/pathways/data-analytics/' | relative_url }}">
+            <div class="portfolio-hover"><div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div></div>
             <img class="img-fluid" src="{{ '/assets/img/portfolio/04-thumbnail.jpg' | relative_url }}" alt="Data Analytics">
           </a>
           <div class="portfolio-caption">
@@ -169,12 +162,10 @@ permalink: /
       </div>
 
       <!-- 5 -->
-      <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+      <div class="col-lg-4 col-sm-6 mb-4">
         <div class="portfolio-item">
-          <a class="portfolio-link" href="{{ '/career-pathways/' | relative_url }}">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-            </div>
+          <a class="portfolio-link" href="{{ '/pathways/cybersecurity/' | relative_url }}">
+            <div class="portfolio-hover"><div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div></div>
             <img class="img-fluid" src="{{ '/assets/img/portfolio/05-thumbnail.jpg' | relative_url }}" alt="Cybersecurity">
           </a>
           <div class="portfolio-caption">
@@ -185,13 +176,11 @@ permalink: /
       </div>
 
       <!-- 6 -->
-      <div class="col-lg-4 col-sm-6">
+      <div class="col-lg-4 col-sm-6 mb-4">
         <div class="portfolio-item">
-          <a class="portfolio-link" href="{{ '/career-pathways/' | relative_url }}">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-            </div>
-            <img class="img-fluid" src="{{ '/assets/img/portfolio/06-thumbnail.jpg' | relative_url }}" alt="Early Childhood Education">
+          <a class="portfolio-link" href="{{ '/pathways/ece/' | relative_url }}">
+            <div class="portfolio-hover"><div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div></div>
+            <img class="img-fluid" src="{{ '/assets/img/portfolio/06-thumbnail.jpg' | relative_url }}" alt="Early Childhood Education (ECE)">
           </a>
           <div class="portfolio-caption">
             <div class="portfolio-caption-heading">Early Childhood Education</div>
@@ -199,6 +188,91 @@ permalink: /
           </div>
         </div>
       </div>
+
+      <!-- 7 -->
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="portfolio-item">
+          <a class="portfolio-link" href="{{ '/pathways/truck-driver-az/' | relative_url }}">
+            <div class="portfolio-hover"><div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div></div>
+            <img class="img-fluid" src="{{ '/assets/img/portfolio/01-thumbnail.jpg' | relative_url }}" alt="AZ Truck Driver">
+          </a>
+          <div class="portfolio-caption">
+            <div class="portfolio-caption-heading">AZ Truck Driver</div>
+            <div class="portfolio-caption-subheading text-muted">Commercial driving</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 8 -->
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="portfolio-item">
+          <a class="portfolio-link" href="{{ '/pathways/project-management/' | relative_url }}">
+            <div class="portfolio-hover"><div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div></div>
+            <img class="img-fluid" src="{{ '/assets/img/portfolio/02-thumbnail.jpg' | relative_url }}" alt="Project Management">
+          </a>
+          <div class="portfolio-caption">
+            <div class="portfolio-caption-heading">Project Management</div>
+            <div class="portfolio-caption-subheading text-muted">PMP-ready planning</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 9 -->
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="portfolio-item">
+          <a class="portfolio-link" href="{{ '/pathways/digital-marketing/' | relative_url }}">
+            <div class="portfolio-hover"><div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div></div>
+            <img class="img-fluid" src="{{ '/assets/img/portfolio/03-thumbnail.jpg' | relative_url }}" alt="Digital Marketing">
+          </a>
+          <div class="portfolio-caption">
+            <div class="portfolio-caption-heading">Digital Marketing</div>
+            <div class="portfolio-caption-subheading text-muted">Modern marketing skills</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 10 -->
+      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <div class="portfolio-item">
+          <a class="portfolio-link" href="{{ '/pathways/pharmacy-assistant/' | relative_url }}">
+            <div class="portfolio-hover"><div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div></div>
+            <img class="img-fluid" src="{{ '/assets/img/portfolio/04-thumbnail.jpg' | relative_url }}" alt="Pharmacy Assistant">
+          </a>
+          <div class="portfolio-caption">
+            <div class="portfolio-caption-heading">Pharmacy Assistant</div>
+            <div class="portfolio-caption-subheading text-muted">Healthcare support role</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 11 -->
+      <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+        <div class="portfolio-item">
+          <a class="portfolio-link" href="{{ '/pathways/networking-it-support/' | relative_url }}">
+            <div class="portfolio-hover"><div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div></div>
+            <img class="img-fluid" src="{{ '/assets/img/portfolio/05-thumbnail.jpg' | relative_url }}" alt="IT Support / Networking">
+          </a>
+          <div class="portfolio-caption">
+            <div class="portfolio-caption-heading">IT Support / Networking</div>
+            <div class="portfolio-caption-subheading text-muted">Entry to mid-level IT</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 12 -->
+      <div class="col-lg-4 col-sm-6">
+        <div class="portfolio-item">
+          <a class="portfolio-link" href="{{ '/pathways/business-analysis/' | relative_url }}">
+            <div class="portfolio-hover"><div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div></div>
+            <img class="img-fluid" src="{{ '/assets/img/portfolio/06-thumbnail.jpg' | relative_url }}" alt="Business Analysis">
+          </a>
+          <div class="portfolio-caption">
+            <div class="portfolio-caption-heading">Business Analysis</div>
+            <div class="portfolio-caption-subheading text-muted">Requirements + process</div>
+          </div>
+        </div>
+      </div>
+
     </div>
 
     <div class="text-center mt-4">
@@ -208,6 +282,7 @@ permalink: /
     </div>
   </div>
 </section>
+
 
 
 <!-- ABOUT MERITPOINT (NOT EMPTY ANYMORE) -->
