@@ -1,77 +1,118 @@
 en-US:
+
   header:
     title: "MeritPoint Pathways"
     text: "Education + career consulting with clear, step-by-step guidance — including OSAP funding direction."
     button: "Book Free Consultation"
-    buttonlink: "/contact/"
+    buttonlink: "{{ '/contact/' | relative_url }}"
 
   services:
     title: "What We Help With"
-    text: "Practical guidance for students, career switchers, and working professionals."
+    text: "Practical, step-by-step guidance for students, career switchers, and working professionals."
     section: services
     list:
       - title: "Education Planning"
-        desc: "Program selection, admissions guidance, and realistic planning based on your goals."
+        desc: "Program selection, prerequisites, and a realistic plan based on your goals."
         icon: "fas fa-graduation-cap"
 
       - title: "Career Pathways"
-        desc: "Explore in-demand pathways (e.g., PSW, HVAC, IT, Accounting) and next steps."
+        desc: "Explore pathways (e.g., PSW, HVAC, IT, Accounting) and next steps."
         icon: "fas fa-route"
 
-      - title: "Funding Guidance"
-        desc: "OSAP guidance and funding direction — understand eligibility and what may be covered."
+      - title: "Funding Guidance (OSAP)"
+        desc: "Understand eligibility, required documents, and what costs may be covered (varies by person)."
         icon: "fas fa-hand-holding-usd"
 
       - title: "Resume & Job Prep"
         desc: "Resume improvements, job search strategy, and interview preparation."
         icon: "fas fa-file-alt"
 
-      - title: "Support for Newcomers"
-        desc: "Clear guidance for newcomers and multicultural communities (including the Indian subcontinent)."
-        icon: "fas fa-globe"
+      - title: "Multilingual Support"
+        desc: "Supportive communication for diverse communities, including newcomers."
+        icon: "fas fa-language"
 
-      - title: "Employer Support"
-        desc: "Help employers connect with motivated candidates and training pathways."
+      - title: "Employers"
+        desc: "Connect employers with motivated candidates and training pathways."
         icon: "fas fa-briefcase"
+
+  portfolio:
+    title: "Career Pathways"
+    text: "Explore a few popular pathways below. For full details, view the pathway pages."
+    section: portfolio
+    closebutton: "Close"
+
+    # NOTE: Some Agency setups read portfolio items from a separate data file.
+    # Keeping these here keeps your content equivalent; if your theme expects
+    # a separate portfolio file, we’ll move this list there next.
+    list:
+      - title: "PSW"
+        subtitle: "Healthcare entry pathway"
+        image: "assets/img/portfolio/01-thumbnail.jpg"
+        alt: "PSW"
+        url: "{{ '/pathways/psw/' | relative_url }}"
+        desc: "Best for: newcomers, career switchers, people entering healthcare. Typical outcome: PSW roles in long-term care / community support. Next step: confirm eligibility + program fit."
+
+      - title: "HVAC Technician"
+        subtitle: "Skilled trades route"
+        image: "assets/img/portfolio/02-thumbnail.jpg"
+        alt: "HVAC Technician"
+        url: "{{ '/pathways/hvac/' | relative_url }}"
+        desc: "Best for: hands-on learners who want stable trade careers. Typical outcome: residential/commercial HVAC roles. Next step: review training options + timeline."
+
+      - title: "More Pathways"
+        subtitle: "View all pathways"
+        image: "assets/img/portfolio/03-thumbnail.jpg"
+        alt: "More Pathways"
+        url: "{{ '/pathways/' | relative_url }}"
+        desc: "See the full list of pathways and get help choosing the right one."
 
   about:
     title: "About MeritPoint"
-    text: "Supportive, honest, and practical consulting — with no fluff."
+    text: "Genuine guidance — clear, supportive, and practical."
     section: about
+    body: >
+      MeritPoint Pathways provides education and career consulting for people who want clarity and confidence in their next step.
+      We support students, working professionals, career switchers, and older adults — including multilingual communities and strong outreach to the Indian subcontinent.
+      Our focus is simple: understand your goals, map the right pathway, and guide you through the steps — including OSAP funding direction where applicable.
 
   timeline:
     title: "How It Works"
-    text: "A simple process designed to reduce confusion and help you move forward."
+    text: "A simple process from first call to next steps."
     section: timeline
     events:
-      - title: "Step 1: Free Consultation"
+      - title: "Step 1"
         year: ""
-        desc: "We learn your goals, timeline, and background. No pressure, no upfront fees."
+        desc: "Free Consultation — we learn your goals, timeline, and background. No pressure, no upfront fees."
         image: "assets/img/about/1.jpg"
-        alt: "Consultation"
+        alt: "Free consultation"
 
-      - title: "Step 2: Pathway Plan"
+      - title: "Step 2"
         year: ""
-        desc: "We map a realistic pathway: program options, prerequisites, and next actions."
+        desc: "Pathway Plan — we map program options, prerequisites, and the most practical next actions."
         image: "assets/img/about/2.jpg"
-        alt: "Planning"
+        alt: "Pathway plan"
 
-      - title: "Step 3: Funding Direction"
+      - title: "Step 3"
         year: ""
-        desc: "We guide you through OSAP/funding steps and what documents you may need."
+        desc: "Funding Direction (OSAP) — we guide you through the funding steps and documents you may need."
         image: "assets/img/about/3.jpg"
-        alt: "Funding"
+        alt: "Funding direction"
 
-      - title: "Step 4: Application + Next Steps"
+      - title: "Step 4"
         year: ""
-        desc: "Applications, resume/job prep, and ongoing support as you progress."
+        desc: "Next Steps + Support — applications, resume/job prep, and support as you move forward."
         image: "assets/img/about/4.jpg"
-        alt: "Support"
+        alt: "Next steps"
 
   team:
     title: "Our Approach"
     text: "Friendly, professional guidance focused on clarity and action."
     section: team
+    approach_points:
+      - "Clear guidance: we keep it simple and step-by-step."
+      - "Practical options: pathways that match your timeline, budget, and goals."
+      - "Supportive delivery: no judgement, no pressure."
+      - "Funding direction: OSAP guidance where applicable (coverage varies by person)."
 
   clients:
     section: clients
@@ -79,11 +120,12 @@ en-US:
     text: "We aim to make education and career decisions less confusing — and more achievable."
 
   contact:
-    title: "Contact Us"
-    text: "Book a free consultation or start with our Google Form."
+    title: "Contact"
+    text: "Start with a free consultation or use our Google Form."
     section: contact
     phone: "437-882-3664"
     email: "info@meritpoint.ca"
+    website: "MeritPoint.ca"
     form: "https://docs.google.com/forms/d/e/1FAIpQLScDpbsNOOw67Fpuw5e6sZjkYzZf6iuP6OrcAl5bmmX2wgs1_A/viewform?usp=header"
 
   footer:
