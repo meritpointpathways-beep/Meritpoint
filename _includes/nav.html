@@ -1,4 +1,4 @@
-<nav id="mainNav" class="navbar navbar-dark fixed-top" style="background-color:#0B1F3A;">
+<nav class="navbar navbar-dark fixed-top" id="mainNav" style="background-color:#0B1F3A;">
   <div class="container">
     <a class="navbar-brand" href="{{ '/' | relative_url }}">
       {% if site.logo and site.logo.path %}
@@ -8,20 +8,13 @@
       {% endif %}
     </a>
 
-    <!-- Menu button ALWAYS visible -->
-    <button
-      class="navbar-toggler"
-      type="button"
-      aria-controls="navbarResponsive"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-      data-toggle="collapse"
-      data-target="#navbarResponsive"
-    >
+    <!-- Always-collapsed navbar: items hidden until click -->
+    <button class="navbar-toggler" type="button"
+      data-toggle="collapse" data-target="#navbarResponsive"
+      aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       Menu <span class="navbar-toggler-icon"></span>
     </button>
 
-    <!-- Items hidden until button is clicked -->
     <div class="collapse navbar-collapse" id="navbarResponsive" style="background-color:#0B1F3A;">
       <ul class="navbar-nav text-uppercase ml-auto">
         {% for link in site.data.navigation.nav %}
