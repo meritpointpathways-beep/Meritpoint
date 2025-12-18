@@ -1,11 +1,9 @@
-<div class="page-banner"
-     style="background-image:url('{{ '/assets/img/header-bg.jpg' | relative_url }}')">
-</div>
 ---
-## Career Pathways
+layout: home
+title: MeritPoint Pathways
 ---
 
-<!-- HERO / HEADER (FORCED) -->
+<!-- HERO / HEADER -->
 <header class="masthead"
   style="
     background-image: url('{{ '/assets/img/header-bg.jpg' | relative_url }}');
@@ -17,7 +15,8 @@
     <div class="intro-text">
       <div class="intro-lead-in">Education + Career Consulting</div>
       <div class="intro-heading text-uppercase">MeritPoint Pathways</div>
-      <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ '/contact/' | relative_url }}">
+      <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
+         href="{{ '/contact/' | relative_url }}">
         Book Free Consultation
       </a>
     </div>
@@ -63,7 +62,7 @@
       </div>
     </div>
 
-    <div class="row text-center">
+    <div class="row text-center mt-4">
       <div class="col-md-4">
         <span class="fa-stack fa-4x">
           <i class="fas fa-circle fa-stack-2x"></i>
@@ -94,13 +93,7 @@
   </div>
 </section>
 
----
-layout: default
-title: Career Pathways
-permalink: /pathways/
----
-
-<!-- PATHWAYS / PORTFOLIO (2 + MORE) -->
+<!-- PATHWAYS / PORTFOLIO (TILES) -->
 <section class="page-section bg-light" id="projects">
   <div class="container">
     <div class="text-center">
@@ -111,7 +104,6 @@ permalink: /pathways/
     </div>
 
     <div class="row">
-
       <!-- Tile 1: PSW -->
       <div class="col-lg-4 col-sm-6 mb-4">
         <div class="portfolio-item">
@@ -128,9 +120,10 @@ permalink: /pathways/
 
             <button class="btn btn-outline-dark btn-sm mt-3"
               type="button"
-              data-toggle="collapse" data-target="#pathway-psw"
-              data-bs-toggle="collapse" data-bs-target="#pathway-psw"
-              aria-expanded="false" aria-controls="pathway-psw">
+              data-toggle="collapse"
+              data-target="#pathway-psw"
+              aria-expanded="false"
+              aria-controls="pathway-psw">
               Details
             </button>
 
@@ -165,9 +158,10 @@ permalink: /pathways/
 
             <button class="btn btn-outline-dark btn-sm mt-3"
               type="button"
-              data-toggle="collapse" data-target="#pathway-hvac"
-              data-bs-toggle="collapse" data-bs-target="#pathway-hvac"
-              aria-expanded="false" aria-controls="pathway-hvac">
+              data-toggle="collapse"
+              data-target="#pathway-hvac"
+              aria-expanded="false"
+              aria-controls="pathway-hvac">
               Details
             </button>
 
@@ -205,14 +199,11 @@ permalink: /pathways/
           </div>
         </div>
       </div>
-
     </div>
   </div>
 </section>
 
-
-
-<!-- ABOUT MERITPOINT (NOT EMPTY ANYMORE) -->
+<!-- ABOUT MERITPOINT -->
 <section class="page-section bg-light" id="about">
   <div class="container">
     <div class="text-center">
@@ -238,7 +229,7 @@ permalink: /pathways/
   </div>
 </section>
 
-<!-- HOW IT WORKS (TIMELINE WITH IMAGES) -->
+<!-- HOW IT WORKS (TIMELINE) -->
 <section class="page-section" id="timeline">
   <div class="container">
     <div class="text-center">
@@ -316,7 +307,7 @@ permalink: /pathways/
   </div>
 </section>
 
-<!-- OUR APPROACH (NOT EMPTY ANYMORE) -->
+<!-- OUR APPROACH -->
 <section class="page-section bg-light" id="approach">
   <div class="container">
     <div class="text-center">
@@ -347,7 +338,10 @@ permalink: /pathways/
     <p style="margin-bottom: 0.25rem;"><strong>Email:</strong> info@meritpoint.ca</p>
     <p style="margin-bottom: 0.75rem;"><strong>Website:</strong> MeritPoint.ca</p>
 
-    <a class="btn btn-primary btn-xl text-uppercase" href="https://docs.google.com/forms/d/e/1FAIpQLScDpbsNOOw67Fpuw5e6sZjkYzZf6iuP6OrcAl5bmmX2wgs1_A/viewform?usp=header" target="_blank" rel="noopener">
+    <a class="btn btn-primary btn-xl text-uppercase"
+       href="https://docs.google.com/forms/d/e/1FAIpQLScDpbsNOOw67Fpuw5e6sZjkYzZf6iuP6OrcAl5bmmX2wgs1_A/viewform?usp=header"
+       target="_blank"
+       rel="noopener">
       Start With Google Form
     </a>
   </div>
