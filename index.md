@@ -1,7 +1,9 @@
+<div class="page-banner"
+     style="background-image:url('{{ '/assets/img/header-bg.jpg' | relative_url }}')">
+</div>
 ---
 ## Career Pathways
 ---
-{% include navheader.html %}
 
 <!-- HERO / HEADER (FORCED) -->
 <header class="masthead"
