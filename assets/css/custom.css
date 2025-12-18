@@ -9,7 +9,7 @@
 * { box-sizing: border-box; }
 .hidden { display: none !important; }
 
-/* ---------- Header Banner ---------- */
+/* ---------- Optional banner helper (only used if you add .page-banner somewhere) ---------- */
 .page-banner {
   width: 100%;
   min-height: 220px;
@@ -25,12 +25,9 @@
   background: linear-gradient(180deg, rgba(0,0,0,.35), rgba(0,0,0,.55));
 }
 
-/* Creates spacing so content doesn't sit under the fixed header */
-.header-spacer { height: 72px; }
-
-/* ---------- Nav / Header ---------- */
+/* ---------- Custom nav (only applies if you enable site.use_custom_nav) ---------- */
 .site-header{
-  position: sticky;   /* sticky = stable on all pages without overlap issues */
+  position: sticky;
   top: 0;
   z-index: 9999;
   background: var(--nav-bg);
@@ -132,12 +129,3 @@
   .nav-desktop{ display: none; }
   .menu-btn{ display: inline-flex; }
 }
-
-/* ---------- Page container helpers ---------- */
-.container{
-  max-width: var(--page-max);
-  margin: 0 auto;
-  padding: 18px 16px;
-}
-.container { max-width: 1100px; margin: 0 auto; padding: 18px 16px; }
-.page-banner { min-height: 220px; background-size: cover; background-position: center; }
