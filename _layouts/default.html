@@ -4,26 +4,22 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>
-      {% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}
-    </title>
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
 
-    {%- if site.description -%}
+    {% if site.description %}
       <meta name="description" content="{{ site.description }}">
-    {%- endif -%}
+    {% endif %}
 
-    <!-- If your theme already loads its CSS, this will just add overrides -->
+    <!-- IMPORTANT: load the theme stylesheet first (GitHub Pages themes generate this) -->
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+    <!-- Your overrides -->
     <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
-
-    <!-- Optional: if you have a main stylesheet in assets/css/style.css, uncomment this -->
-    <!-- <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}"> -->
   </head>
 
   <body>
-
     {% include nav.html %}
 
-    <!-- Banner (shows on all pages). Put your image at /assets/img/header-bg.jpg -->
     <div
       class="page-banner"
       style="background-image:url('{{ '/assets/img/header-bg.jpg' | relative_url }}');"
@@ -38,20 +34,16 @@
       document.addEventListener("DOMContentLoaded", function () {
         const btn = document.getElementById("menuBtn");
         const menu = document.getElementById("mobileMenu");
-
         if (!btn || !menu) return;
 
-        // Always start hidden on mobile
         menu.classList.add("hidden");
         btn.setAttribute("aria-expanded", "false");
 
         btn.addEventListener("click", function () {
           menu.classList.toggle("hidden");
-          const isOpen = !menu.classList.contains("hidden");
-          btn.setAttribute("aria-expanded", isOpen ? "true" : "false");
+          btn.setAttribute("aria-expanded", menu.classList.contains("hidden") ? "false" : "true");
         });
 
-        // Close menu after clicking a link (mobile UX)
         menu.querySelectorAll("a").forEach(function (a) {
           a.addEventListener("click", function () {
             menu.classList.add("hidden");
@@ -60,6 +52,5 @@
         });
       });
     </script>
-
   </body>
 </html>
