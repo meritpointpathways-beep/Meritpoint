@@ -1,6 +1,20 @@
 ---
 layout: default
 ---
+
+{% include nav.html %}
+
+<div style="padding-top: 90px;"></div>
+
 <div class="container">
-  {{ content }}
+  <div class="row">
+    <div class="col-lg-10 mx-auto">
+      <h1 class="text-uppercase">{{ page.title }}</h1>
+      <div class="text-muted" style="margin-top: 18px;">
+        {{ content }}
+      </div>
+    </div>
+  </div>
 </div>
+
+<div style="height: 60px;"></div>
