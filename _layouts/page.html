@@ -4,17 +4,35 @@ layout: default
 
 {% include nav.html %}
 
-<div style="padding-top: 90px;"></div>
+<!-- Page Banner -->
+<header class="masthead" style="
+  background-image: url('{{ '/assets/img/header-bg.jpg' | relative_url }}');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 110px;
+  padding-bottom: 60px;
+">
+  <div class="container">
+    <div class="intro-text" style="padding: 0;">
+      <div class="intro-heading text-uppercase" style="font-size: 38px; line-height: 1.2;">
+        {{ page.title }}
+      </div>
+      {% if page.description %}
+        <div class="intro-lead-in" style="margin-top: 10px;">
+          {{ page.description }}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</header>
 
-<div class="container">
-  <div class="row">
-    <div class="col-lg-10 mx-auto">
-      <h1 class="text-uppercase">{{ page.title }}</h1>
-      <div class="text-muted" style="margin-top: 18px;">
+<section class="page-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
         {{ content }}
       </div>
     </div>
   </div>
-</div>
-
-<div style="height: 60px;"></div>
+</section>
