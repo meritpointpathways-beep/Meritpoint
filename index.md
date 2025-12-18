@@ -97,30 +97,30 @@ permalink: /
 <section class="page-section bg-light" id="projects">
   <div class="container">
     <div class="text-center">
-      <h2 class="section-heading text-uppercase">Career Pathways (Examples)</h2>
+      <h2 class="section-heading text-uppercase">Career Pathways</h2>
       <h3 class="section-subheading text-muted">
-        These are sample pathways — detail pages will be added next.
+        Explore popular pathways — detail pages coming next.
       </h3>
     </div>
 
     <div class="row">
-      <!-- Card 1 -->
+      <!-- 1 -->
       <div class="col-lg-4 col-sm-6 mb-4">
         <div class="portfolio-item">
           <a class="portfolio-link" href="{{ '/career-pathways/' | relative_url }}">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
             </div>
-            <img class="img-fluid" src="{{ '/assets/img/portfolio/01-thumbnail.jpg' | relative_url }}" alt="CPA / Accounting">
+            <img class="img-fluid" src="{{ '/assets/img/portfolio/01-thumbnail.jpg' | relative_url }}" alt="PSW">
           </a>
           <div class="portfolio-caption">
-            <div class="portfolio-caption-heading">CPA / Accounting</div>
-            <div class="portfolio-caption-subheading text-muted">Planning + next steps</div>
+            <div class="portfolio-caption-heading">PSW</div>
+            <div class="portfolio-caption-subheading text-muted">Healthcare entry pathway</div>
           </div>
         </div>
       </div>
 
-      <!-- Card 2 -->
+      <!-- 2 -->
       <div class="col-lg-4 col-sm-6 mb-4">
         <div class="portfolio-item">
           <a class="portfolio-link" href="{{ '/career-pathways/' | relative_url }}">
@@ -130,29 +130,82 @@ permalink: /
             <img class="img-fluid" src="{{ '/assets/img/portfolio/02-thumbnail.jpg' | relative_url }}" alt="HVAC">
           </a>
           <div class="portfolio-caption">
-            <div class="portfolio-caption-heading">HVAC</div>
+            <div class="portfolio-caption-heading">HVAC Technician</div>
             <div class="portfolio-caption-subheading text-muted">Skilled trades route</div>
           </div>
         </div>
       </div>
 
-      <!-- Card 3 -->
+      <!-- 3 -->
       <div class="col-lg-4 col-sm-6 mb-4">
         <div class="portfolio-item">
           <a class="portfolio-link" href="{{ '/career-pathways/' | relative_url }}">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
             </div>
-            <img class="img-fluid" src="{{ '/assets/img/portfolio/03-thumbnail.jpg' | relative_url }}" alt="PSW">
+            <img class="img-fluid" src="{{ '/assets/img/portfolio/03-thumbnail.jpg' | relative_url }}" alt="Accounting / CPA">
           </a>
           <div class="portfolio-caption">
-            <div class="portfolio-caption-heading">PSW</div>
-            <div class="portfolio-caption-subheading text-muted">Healthcare pathway</div>
+            <div class="portfolio-caption-heading">Accounting → CPA</div>
+            <div class="portfolio-caption-subheading text-muted">Credential roadmap</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4 -->
+      <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+        <div class="portfolio-item">
+          <a class="portfolio-link" href="{{ '/career-pathways/' | relative_url }}">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+            </div>
+            <img class="img-fluid" src="{{ '/assets/img/portfolio/04-thumbnail.jpg' | relative_url }}" alt="Data Analytics">
+          </a>
+          <div class="portfolio-caption">
+            <div class="portfolio-caption-heading">Data Analytics</div>
+            <div class="portfolio-caption-subheading text-muted">In-demand tech skills</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5 -->
+      <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+        <div class="portfolio-item">
+          <a class="portfolio-link" href="{{ '/career-pathways/' | relative_url }}">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+            </div>
+            <img class="img-fluid" src="{{ '/assets/img/portfolio/05-thumbnail.jpg' | relative_url }}" alt="Cybersecurity">
+          </a>
+          <div class="portfolio-caption">
+            <div class="portfolio-caption-heading">Cybersecurity</div>
+            <div class="portfolio-caption-subheading text-muted">IT security pathway</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 6 -->
+      <div class="col-lg-4 col-sm-6">
+        <div class="portfolio-item">
+          <a class="portfolio-link" href="{{ '/career-pathways/' | relative_url }}">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+            </div>
+            <img class="img-fluid" src="{{ '/assets/img/portfolio/06-thumbnail.jpg' | relative_url }}" alt="Early Childhood Education">
+          </a>
+          <div class="portfolio-caption">
+            <div class="portfolio-caption-heading">Early Childhood Education</div>
+            <div class="portfolio-caption-subheading text-muted">ECE pathway</div>
           </div>
         </div>
       </div>
     </div>
 
+    <div class="text-center mt-4">
+      <a class="btn btn-primary btn-xl text-uppercase" href="{{ '/career-pathways/' | relative_url }}">
+        View All Pathways
+      </a>
+    </div>
   </div>
 </section>
 
