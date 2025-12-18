@@ -5,17 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>{{ page.title }} | {{ site.title }}</title>
 
+    <!-- Bootstrap CSS (REQUIRED for navbar collapse to hide/show correctly) -->
+    <link rel="stylesheet" href="{{ '/assets/vendor/bootstrap/css/bootstrap.min.css' | relative_url }}">
+
     <!-- Theme CSS -->
     <link rel="stylesheet" href="{{ '/assets/css/agency.css' | relative_url }}">
 
-    <!-- Font Awesome (icons) -->
+    <!-- Font Awesome -->
     <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
   </head>
 
   <body id="page-top">
     {{ content }}
 
-    <!-- Theme JS (Bootstrap + theme scripts) -->
+    <!-- JS: jQuery -> Bootstrap -> Theme -->
     <script src="{{ '/assets/vendor/jquery/jquery.min.js' | relative_url }}"></script>
     <script src="{{ '/assets/vendor/bootstrap/js/bootstrap.bundle.min.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/agency.min.js' | relative_url }}"></script>
