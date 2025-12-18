@@ -1,45 +1,44 @@
 # Welcome to Jekyll!
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that.
-# This file is *NOT* reloaded automatically when you use 'bundle exec jekyll serve'.
-# If you change this file, please restart the server process.
+# This config file is meant for settings that affect your whole site.
+# If you change this file, please redeploy the site.
 
-# Site settings
-# are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
-#theme: jekyll-agency
+# Theme
 remote_theme: raviriley/agency-jekyll-theme
 
-url    : "https://meritpointpathways-beep.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/Meritpoint" # the subpath of your site, e.g. /blog
+# Site URL settings (GitHub Pages project site)
+url: "https://meritpointpathways-beep.github.io"
+baseurl: "/Meritpoint"
 
-title      : "MeritPoint Pathways"
-email      : "info@meritpoint.com" #this is also the email contact forms will go to
+# Site identity
+title: "MeritPoint Pathways"
+email: "info@meritpoint.com"
 description: "Education and career guidance with step-by-step program selection, funding (OSAP) support, and career pathways."
-author     : "Meritpoint Pathways"
-# logo:     #optional, defaults to site title
-  # path: assets\img\clients\creative-market.jpg
-  # height: 60 #height in px, defaults to 52px
+author: "MeritPoint Pathways"
 
+# Localization
 locale: "en-US" # See available languages in _data/sitetext.yml
 
+# Analytics
 analytics:
-  google: "" #Google Analytics tracking code here
+  google: "" # Google Analytics tracking code here
 
+# Collections
 collections:
   portfolio:
+    output: true
 
+# Markdown
 markdown: kramdown
 
-# Uncomment following line to use Formspree form ID based URL instead of email based URL
-# Details: https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam
+# Optional: use Formspree form ID based URL instead of email-based URL
 # formspree_form_path: "f/a_form_id"
+
+# Custom CSS (theme supports loading custom CSS by name)
 custom_css:
   - custom.css
 
+# Plugins
 plugins:
   - jekyll-remote-theme
+
