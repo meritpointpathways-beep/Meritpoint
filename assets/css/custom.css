@@ -1,0 +1,6 @@
+header.masthead {
+  background-image: url("../img/header-bg.jpg") !important;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
