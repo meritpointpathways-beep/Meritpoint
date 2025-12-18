@@ -50,12 +50,34 @@ Practical guidance for job search direction, role targeting, and next steps afte
 
 ---
 
-## How it works
+timeline:
+  title: "How It Works"
+  text: "A simple process from first call to next steps."
+  section: timeline
+  events:
+    - title: "Free consultation"
+      year: ""
+      desc: "Share your goal and background. We clarify options and next steps."
+      image: "/assets/img/timeline/1.jpg"
+      alt: "Consultation"
 
-1. **Free consultation** — share your goal, background, and timeline  
-2. **Options & eligibility** — program fit + funding planning (where applicable)  
-3. **Step-by-step roadmap** — prerequisites, documents, deadlines, next actions  
-4. **Support through next steps** — applications and career progression guidance
+    - title: "Plan & eligibility"
+      year: ""
+      desc: "We review program fit and funding direction (where applicable)."
+      image: "/assets/img/timeline/2.jpg"
+      alt: "Planning"
+
+    - title: "Step-by-step roadmap"
+      year: ""
+      desc: "You get a clear checklist, timeline, and what to do next."
+      image: "/assets/img/timeline/3.jpg"
+      alt: "Roadmap"
+
+    - title: "Support through action"
+      year: ""
+      desc: "We help you move forward with applications and career progress."
+      image: "/assets/img/timeline/4.jpg"
+      alt: "Support"
 
 ---
 
