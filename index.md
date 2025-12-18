@@ -3,6 +3,7 @@ layout: default
 title: MeritPoint Pathways
 permalink: /
 ---
+{% include navheader.html %}
 
 <!-- HERO / HEADER (FORCED) -->
 <header class="masthead"
