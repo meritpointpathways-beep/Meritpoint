@@ -1,38 +1,27 @@
-<!-- Navigation (site-wide, for all non-home pages) -->
 <nav id="mainNav" class="navbar navbar-dark fixed-top" style="background-color:#0B1F3A;">
   <div class="container">
-
-    <!-- Brand / Logo -->
     <a class="navbar-brand" href="{{ '/' | relative_url }}">
       {% if site.logo and site.logo.path %}
-        <img
-          src="{{ site.logo.path | relative_url }}"
-          alt="{{ site.title | escape }}"
-          style="height:52px; width:auto;"
-        >
+        <img src="{{ site.logo.path | relative_url }}" alt="{{ site.title | escape }}" style="height:52px;width:auto;">
       {% else %}
         {{ site.title }}
       {% endif %}
     </a>
 
-    <!-- Hamburger -->
+    <!-- Menu button ALWAYS visible -->
     <button
       class="navbar-toggler"
       type="button"
       aria-controls="navbarResponsive"
       aria-expanded="false"
       aria-label="Toggle navigation"
-
       data-toggle="collapse"
       data-target="#navbarResponsive"
-
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarResponsive"
     >
       Menu <span class="navbar-toggler-icon"></span>
     </button>
 
-    <!-- Collapsible menu -->
+    <!-- Items hidden until button is clicked -->
     <div class="collapse navbar-collapse" id="navbarResponsive" style="background-color:#0B1F3A;">
       <ul class="navbar-nav text-uppercase ml-auto">
         {% for link in site.data.navigation.nav %}
@@ -44,6 +33,5 @@
         {% endfor %}
       </ul>
     </div>
-
   </div>
 </nav>
