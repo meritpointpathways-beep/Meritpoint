@@ -1,7 +1,5 @@
 ---
-layout: default
-title: MeritPoint Pathways
-permalink: /
+## Career Pathways
 ---
 {% include navheader.html %}
 
