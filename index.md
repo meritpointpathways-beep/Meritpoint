@@ -93,113 +93,111 @@ permalink: /
   </div>
 </section>
 
-<!-- PATHWAYS (2 + MORE) -->
-<section class="page-section bg-light" id="projects">
+---
+layout: default
+title: Career Pathways
+permalink: /pathways/
+---
+
+<section class="page-section bg-light" id="all-pathways">
   <div class="container">
     <div class="text-center">
-      <h2 class="section-heading text-uppercase">Career Pathways</h2>
+      <h2 class="section-heading text-uppercase">All Career Pathways</h2>
       <h3 class="section-subheading text-muted">
-        Explore a few popular pathways. Click “Details” to expand.
+        Click any pathway to view details (pages will be filled in next).
       </h3>
     </div>
 
     <div class="row">
 
-      <!-- Tile 1: PSW -->
       <div class="col-lg-4 col-sm-6 mb-4">
         <div class="portfolio-item">
           <a class="portfolio-link" href="{{ '/pathways/psw/' | relative_url }}">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-            </div>
+            <div class="portfolio-hover"><div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div></div>
             <img class="img-fluid" src="{{ '/assets/img/portfolio/01-thumbnail.jpg' | relative_url }}" alt="PSW">
           </a>
-
           <div class="portfolio-caption">
             <div class="portfolio-caption-heading">PSW</div>
             <div class="portfolio-caption-subheading text-muted">Healthcare entry pathway</div>
-
-            <button class="btn btn-outline-dark btn-sm mt-3"
-              type="button"
-              data-toggle="collapse" data-target="#pathway-psw"
-              data-bs-toggle="collapse" data-bs-target="#pathway-psw"
-              aria-expanded="false" aria-controls="pathway-psw">
-              Details
-            </button>
-
-            <div class="collapse mt-3" id="pathway-psw">
-              <div class="card card-body text-left" style="border-radius:12px;">
-                <ul class="mb-2">
-                  <li>Best for: newcomers, career switchers, people entering healthcare</li>
-                  <li>Typical outcome: PSW roles in long-term care / community support</li>
-                  <li>Next step: confirm eligibility + program fit</li>
-                </ul>
-                <a class="btn btn-primary btn-sm" href="{{ '/pathways/psw/' | relative_url }}">View PSW Pathway</a>
-              </div>
-            </div>
           </div>
         </div>
       </div>
 
-      <!-- Tile 2: HVAC -->
       <div class="col-lg-4 col-sm-6 mb-4">
         <div class="portfolio-item">
           <a class="portfolio-link" href="{{ '/pathways/hvac/' | relative_url }}">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-            </div>
+            <div class="portfolio-hover"><div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div></div>
             <img class="img-fluid" src="{{ '/assets/img/portfolio/02-thumbnail.jpg' | relative_url }}" alt="HVAC Technician">
           </a>
-
           <div class="portfolio-caption">
             <div class="portfolio-caption-heading">HVAC Technician</div>
             <div class="portfolio-caption-subheading text-muted">Skilled trades route</div>
-
-            <button class="btn btn-outline-dark btn-sm mt-3"
-              type="button"
-              data-toggle="collapse" data-target="#pathway-hvac"
-              data-bs-toggle="collapse" data-bs-target="#pathway-hvac"
-              aria-expanded="false" aria-controls="pathway-hvac">
-              Details
-            </button>
-
-            <div class="collapse mt-3" id="pathway-hvac">
-              <div class="card card-body text-left" style="border-radius:12px;">
-                <ul class="mb-2">
-                  <li>Best for: hands-on learners who want stable trade careers</li>
-                  <li>Typical outcome: residential/commercial HVAC roles</li>
-                  <li>Next step: review training options + timeline</li>
-                </ul>
-                <a class="btn btn-primary btn-sm" href="{{ '/pathways/hvac/' | relative_url }}">View HVAC Pathway</a>
-              </div>
-            </div>
           </div>
         </div>
       </div>
 
-      <!-- Tile 3: MORE -->
       <div class="col-lg-4 col-sm-6 mb-4">
         <div class="portfolio-item">
-          <a class="portfolio-link" href="{{ '/pathways/' | relative_url }}">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content"><i class="fas fa-arrow-right fa-3x"></i></div>
-            </div>
-            <img class="img-fluid" src="{{ '/assets/img/portfolio/03-thumbnail.jpg' | relative_url }}" alt="More Pathways">
+          <a class="portfolio-link" href="{{ '/pathways/accounting-cpa/' | relative_url }}">
+            <div class="portfolio-hover"><div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div></div>
+            <img class="img-fluid" src="{{ '/assets/img/portfolio/03-thumbnail.jpg' | relative_url }}" alt="Accounting to CPA">
           </a>
-
           <div class="portfolio-caption">
-            <div class="portfolio-caption-heading">More</div>
-            <div class="portfolio-caption-subheading text-muted">View all pathways</div>
-            <a class="btn btn-primary btn-sm mt-3" href="{{ '/pathways/' | relative_url }}">
-              See All Pathways
-            </a>
+            <div class="portfolio-caption-heading">Accounting → CPA</div>
+            <div class="portfolio-caption-subheading text-muted">Credential roadmap</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="portfolio-item">
+          <a class="portfolio-link" href="{{ '/pathways/data-analytics/' | relative_url }}">
+            <div class="portfolio-hover"><div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div></div>
+            <img class="img-fluid" src="{{ '/assets/img/portfolio/04-thumbnail.jpg' | relative_url }}" alt="Data Analytics">
+          </a>
+          <div class="portfolio-caption">
+            <div class="portfolio-caption-heading">Data Analytics</div>
+            <div class="portfolio-caption-subheading text-muted">In-demand tech skills</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="portfolio-item">
+          <a class="portfolio-link" href="{{ '/pathways/cybersecurity/' | relative_url }}">
+            <div class="portfolio-hover"><div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div></div>
+            <img class="img-fluid" src="{{ '/assets/img/portfolio/05-thumbnail.jpg' | relative_url }}" alt="Cybersecurity">
+          </a>
+          <div class="portfolio-caption">
+            <div class="portfolio-caption-heading">Cybersecurity</div>
+            <div class="portfolio-caption-subheading text-muted">IT security pathway</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="portfolio-item">
+          <a class="portfolio-link" href="{{ '/pathways/ece/' | relative_url }}">
+            <div class="portfolio-hover"><div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div></div>
+            <img class="img-fluid" src="{{ '/assets/img/portfolio/06-thumbnail.jpg' | relative_url }}" alt="Early Childhood Education">
+          </a>
+          <div class="portfolio-caption">
+            <div class="portfolio-caption-heading">Early Childhood Education</div>
+            <div class="portfolio-caption-subheading text-muted">ECE pathway</div>
           </div>
         </div>
       </div>
 
     </div>
+
+    <div class="text-center mt-4">
+      <a class="btn btn-primary btn-xl text-uppercase" href="{{ '/contact/' | relative_url }}">
+        Book Free Consultation
+      </a>
+    </div>
   </div>
 </section>
+
 
 
 <!-- ABOUT MERITPOINT (NOT EMPTY ANYMORE) -->
