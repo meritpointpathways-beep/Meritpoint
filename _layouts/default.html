@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>
+      {% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}
+    </title>
+
+    {%- if site.description -%}
+      <meta name="description" content="{{ site.description }}">
+    {%- endif -%}
+
+    <!-- If your theme already loads its CSS, this will just add overrides -->
+    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+
+    <!-- Optional: if you have a main stylesheet in assets/css/style.css, uncomment this -->
+    <!-- <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}"> -->
+  </head>
+
+  <body>
+
+    {% include nav.html %}
+
+    <!-- Banner (shows on all pages). Put your image at /assets/img/header-bg.jpg -->
+    <div
+      class="page-banner"
+      style="background-image:url('{{ '/assets/img/header-bg.jpg' | relative_url }}');"
+      aria-hidden="true"
+    ></div>
+
+    <main class="container">
+      {{ content }}
+    </main>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const btn = document.getElementById("menuBtn");
+        const menu = document.getElementById("mobileMenu");
+
+        if (!btn || !menu) return;
+
+        // Always start hidden on mobile
+        menu.classList.add("hidden");
+        btn.setAttribute("aria-expanded", "false");
+
+        btn.addEventListener("click", function () {
+          menu.classList.toggle("hidden");
+          const isOpen = !menu.classList.contains("hidden");
+          btn.setAttribute("aria-expanded", isOpen ? "true" : "false");
+        });
+
+        // Close menu after clicking a link (mobile UX)
+        menu.querySelectorAll("a").forEach(function (a) {
+          a.addEventListener("click", function () {
+            menu.classList.add("hidden");
+            btn.setAttribute("aria-expanded", "false");
+          });
+        });
+      });
+    </script>
+
+  </body>
+</html>
