@@ -1,0 +1,44 @@
+<header class="site-header">
+  <div class="nav-wrap">
+
+    <!-- Brand / Logo -->
+    <a class="brand" href="{{ '/' | relative_url }}">
+      {% if site.title %}
+        <span class="brand-text">{{ site.title }}</span>
+      {% else %}
+        <span class="brand-text">MeritPoint</span>
+      {% endif %}
+    </a>
+
+    <!-- Desktop links -->
+    <nav class="nav-desktop" aria-label="Primary">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/pathways/' | relative_url }}">Career Pathways</a>
+      <a href="{{ '/funding/' | relative_url }}">Funding</a>
+      <a href="{{ '/employers/' | relative_url }}">Employers</a>
+      <a href="{{ '/contact/' | relative_url }}">Contact</a>
+    </nav>
+
+    <!-- Mobile button -->
+    <button
+      id="menuBtn"
+      class="menu-btn"
+      type="button"
+      aria-expanded="false"
+      aria-controls="mobileMenu"
+      aria-label="Open menu"
+    >
+      <span class="menu-icon" aria-hidden="true">☰</span>
+      <span class="menu-label">Menu</span>
+    </button>
+  </div>
+
+  <!-- Mobile dropdown -->
+  <nav id="mobileMenu" class="nav-mobile hidden" aria-label="Mobile">
+    <a href="{{ '/' | relative_url }}">Home</a>
+    <a href="{{ '/pathways/' | relative_url }}">Career Pathways</a>
+    <a href="{{ '/funding/' | relative_url }}">Funding</a>
+    <a href="{{ '/employers/' | relative_url }}">Employers</a>
+    <a href="{{ '/contact/' | relative_url }}">Contact</a>
+  </nav>
+</header>
