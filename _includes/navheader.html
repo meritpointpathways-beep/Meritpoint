@@ -1,69 +1,29 @@
-<!-- Navigation (override for project-site + multi-page nav) -->
-<nav id="mainNav" class="navbar navbar-dark fixed-top" style="background-color:#0B1F3A;">
+<nav class="navbar navbar-dark fixed-top" id="mainNav" style="background-color:#0B1F3A;">
   <div class="container">
-
-    <!-- Brand / Logo -->
     <a class="navbar-brand" href="{{ '/' | relative_url }}">
       {% if site.logo and site.logo.path %}
-        <img
-          src="{{ site.logo.path | relative_url }}"
-          alt="{{ site.title | escape }}"
-          style="height:52px; width:auto;"
-        >
+        <img src="{{ site.logo.path | relative_url }}" alt="{{ site.title | escape }}" style="height:52px;width:auto;">
       {% else %}
         {{ site.title }}
       {% endif %}
     </a>
 
-    <!-- Hamburger / Menu button (always visible because no navbar-expand-*) -->
-    <button
-      class="navbar-toggler"
-      type="button"
-      aria-controls="navbarResponsive"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-
-      data-toggle="collapse"
-      data-target="#navbarResponsive"
-
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarResponsive"
-    >
+    <button class="navbar-toggler" type="button"
+      data-toggle="collapse" data-target="#navbarResponsive"
+      aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       Menu <span class="navbar-toggler-icon"></span>
     </button>
 
-    <!-- Collapsible menu -->
-    <div
-      class="collapse navbar-collapse"
-      id="navbarResponsive"
-      style="background-color:#0B1F3A;"
-    >
+    <div class="collapse navbar-collapse" id="navbarResponsive" style="background-color:#0B1F3A;">
       <ul class="navbar-nav text-uppercase ml-auto">
-
-        {% assign nav_items = site.data.navigation.nav %}
-        {% for link in nav_items %}
-          {% if link.title %}
+        {% for link in site.data.navigation.nav %}
+          {% if link.title and link.url %}
             <li class="nav-item">
-
-              {% if link.section %}
-                <!-- one-page section link -->
-                <a class="nav-link js-scroll-trigger" href="{{ '/#' | relative_url }}{{ link.section }}">
-                  {{ link.title }}
-                </a>
-
-              {% elsif link.url %}
-                <!-- multi-page link -->
-                <a class="nav-link" href="{{ link.url | relative_url }}">
-                  {{ link.title }}
-                </a>
-              {% endif %}
-
+              <a class="nav-link" href="{{ link.url | relative_url }}">{{ link.title }}</a>
             </li>
           {% endif %}
         {% endfor %}
-
       </ul>
     </div>
-
   </div>
 </nav>
