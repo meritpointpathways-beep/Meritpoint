@@ -1,159 +1,97 @@
 en-US:
   header:
     title: "MeritPoint Pathways"
-    text: "Education and career guidance with step-by-step program planning, funding support (OSAP), and clear career roadmaps."
-    button: "Book a Free Consultation"
-    buttonlink: "/Meritpoint/contact/"
+    text: "Education + career consulting with clear, step-by-step guidance — including OSAP funding direction."
+    button: "Book Free Consultation"
+    buttonlink: "/contact/"
 
   services:
     title: "What We Help With"
-    text: "Clear, step-by-step guidance for students, working professionals, and career changers."
+    text: "Practical guidance for students, career switchers, and working professionals."
     section: services
     list:
-      - title: "Program & Career Planning"
-        desc: "Choose the right program and build a realistic plan based on your goals, timeline, and experience."
+      - title: "Education Planning"
+        desc: "Program selection, admissions guidance, and realistic planning based on your goals."
+        icon: "fas fa-graduation-cap"
+
+      - title: "Career Pathways"
+        desc: "Explore in-demand pathways (e.g., PSW, HVAC, IT, Accounting) and next steps."
         icon: "fas fa-route"
-      - title: "Funding Guidance (OSAP)"
-        desc: "Understand what may be covered and what documents you need. Eligibility varies by person and program."
+
+      - title: "Funding Guidance"
+        desc: "OSAP guidance and funding direction — understand eligibility and what may be covered."
         icon: "fas fa-hand-holding-usd"
-      - title: "Career Pathways & Job Readiness"
-        desc: "Structured career roadmaps plus practical job search direction and next steps."
+
+      - title: "Resume & Job Prep"
+        desc: "Resume improvements, job search strategy, and interview preparation."
+        icon: "fas fa-file-alt"
+
+      - title: "Support for Newcomers"
+        desc: "Clear guidance for newcomers and multicultural communities (including the Indian subcontinent)."
+        icon: "fas fa-globe"
+
+      - title: "Employer Support"
+        desc: "Help employers connect with motivated candidates and training pathways."
         icon: "fas fa-briefcase"
 
-  portfolio:
-    title: "Career Pathways"
-    text: "Browse roadmaps across Skilled Trades, Healthcare, and STEM & professional designations."
-    section: portfolio
-    closebutton: "Close"
+  about:
+    title: "About MeritPoint"
+    text: "Supportive, honest, and practical consulting — with no fluff."
+    section: about
 
   timeline:
     title: "How It Works"
-    text: "A simple process from first call to next steps."
+    text: "A simple process designed to reduce confusion and help you move forward."
     section: timeline
     events:
-      - title: "Free consultation"
+      - title: "Step 1: Free Consultation"
         year: ""
-        desc: "Share your goal and background. We clarify options and next steps."
-        image: "assets/img/timeline/1.jpg"
-        alt: ""
-      - title: "Plan & eligibility"
+        desc: "We learn your goals, timeline, and background. No pressure, no upfront fees."
+        image: "assets/img/about/1.jpg"
+        alt: "Consultation"
+
+      - title: "Step 2: Pathway Plan"
         year: ""
-        desc: "We review program fit and funding direction (where applicable)."
-        image: "assets/img/timeline/2.jpg"
-        alt: ""
-      - title: "Step-by-step roadmap"
+        desc: "We map a realistic pathway: program options, prerequisites, and next actions."
+        image: "assets/img/about/2.jpg"
+        alt: "Planning"
+
+      - title: "Step 3: Funding Direction"
         year: ""
-        desc: "You get a clear checklist, timeline, and what to do next."
-        image: "assets/img/timeline/3.jpg"
-        alt: ""
-      - title: "Support through action"
+        desc: "We guide you through OSAP/funding steps and what documents you may need."
+        image: "assets/img/about/3.jpg"
+        alt: "Funding"
+
+      - title: "Step 4: Application + Next Steps"
         year: ""
-        desc: "We help you move forward with applications and career progress."
-        image: "assets/img/timeline/4.jpg"
-        alt: ""
-    end: "Start your next chapter"
+        desc: "Applications, resume/job prep, and ongoing support as you progress."
+        image: "assets/img/about/4.jpg"
+        alt: "Support"
+
+  team:
+    title: "Our Approach"
+    text: "Friendly, professional guidance focused on clarity and action."
+    section: team
+
+  clients:
+    section: clients
+    title: "Trusted Guidance"
+    text: "We aim to make education and career decisions less confusing — and more achievable."
 
   contact:
-    title: "Request Information"
-    text: "Book a free consultation or send a request and we’ll get back to you."
+    title: "Contact Us"
+    text: "Book a free consultation or start with our Google Form."
     section: contact
-    name: "Full Name*"
-    name-validation: "Please enter your name."
-    email: "Email*"
-    email-validation: "Please enter your email address."
-    phone: "Phone (optional)"
-    phone-validation: ""
-    message: "What are you looking for? (Program / Funding / Career / Hiring)"
-    message-validation: "Please add a short message."
-    subject: "New website inquiry"
-    submit: "Send Request"
+    phone: "437-882-3664"
+    email: "info@meritpoint.ca"
+    form: "https://docs.google.com/forms/d/e/1FAIpQLScDpbsNOOw67Fpuw5e6sZjkYzZf6iuP6OrcAl5bmmX2wgs1_A/viewform?usp=header"
 
   footer:
-    legal: "Privacy Policy"
+    legal: "MeritPoint Pathways"
     social:
+      - url: "https://meritpoint.ca"
+        icon: "fas fa-globe"
       - url: "mailto:info@meritpoint.ca"
         icon: "fas fa-envelope"
-      - url: "tel:+14378823664"
+      - url: "tel:4378823664"
         icon: "fas fa-phone"
-      - url: "https://MeritPoint.ca"
-        icon: "fas fa-globe"
-
-en:
-  header:
-    title: "MeritPoint Pathways"
-    text: "Education and career guidance with step-by-step program planning, funding support (OSAP), and clear career roadmaps."
-    button: "Book a Free Consultation"
-    buttonlink: "/Meritpoint/contact/"
-
-  services:
-    title: "What We Help With"
-    text: "Clear, step-by-step guidance for students, working professionals, and career changers."
-    section: services
-    list:
-      - title: "Program & Career Planning"
-        desc: "Choose the right program and build a realistic plan based on your goals, timeline, and experience."
-        icon: "fas fa-route"
-      - title: "Funding Guidance (OSAP)"
-        desc: "Understand what may be covered and what documents you need. Eligibility varies by person and program."
-        icon: "fas fa-hand-holding-usd"
-      - title: "Career Pathways & Job Readiness"
-        desc: "Structured career roadmaps plus practical job search direction and next steps."
-        icon: "fas fa-briefcase"
-
-  portfolio:
-    title: "Career Pathways"
-    text: "Browse roadmaps across Skilled Trades, Healthcare, and STEM & professional designations."
-    section: portfolio
-    closebutton: "Close"
-
-  timeline:
-    title: "How It Works"
-    text: "A simple process from first call to next steps."
-    section: timeline
-    events:
-      - title: "Free consultation"
-        year: ""
-        desc: "Share your goal and background. We clarify options and next steps."
-        image: "assets/img/timeline/1.jpg"
-        alt: ""
-      - title: "Plan & eligibility"
-        year: ""
-        desc: "We review program fit and funding direction (where applicable)."
-        image: "assets/img/timeline/2.jpg"
-        alt: ""
-      - title: "Step-by-step roadmap"
-        year: ""
-        desc: "You get a clear checklist, timeline, and what to do next."
-        image: "assets/img/timeline/3.jpg"
-        alt: ""
-      - title: "Support through action"
-        year: ""
-        desc: "We help you move forward with applications and career progress."
-        image: "assets/img/timeline/4.jpg"
-        alt: ""
-    end: "Start your next chapter"
-
-  contact:
-    title: "Request Information"
-    text: "Book a free consultation or send a request and we’ll get back to you."
-    section: contact
-    name: "Full Name*"
-    name-validation: "Please enter your name."
-    email: "Email*"
-    email-validation: "Please enter your email address."
-    phone: "Phone (optional)"
-    phone-validation: ""
-    message: "What are you looking for? (Program / Funding / Career / Hiring)"
-    message-validation: "Please add a short message."
-    subject: "New website inquiry"
-    submit: "Send Request"
-
-  footer:
-    legal: "Privacy Policy"
-    social:
-      - url: "mailto:info@meritpoint.ca"
-        icon: "fas fa-envelope"
-      - url: "tel:+14378823664"
-        icon: "fas fa-phone"
-      - url: "https://MeritPoint.ca"
-        icon: "fas fa-globe"
