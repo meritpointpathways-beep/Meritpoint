@@ -1,6 +1,18 @@
-header.masthead {
-  background-image: url("../img/header-bg.jpg") !important;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+/* Force the navbar to stay collapsed on ALL screen sizes (desktop included) */
+.navbar-expand-lg .navbar-toggler {
+  display: block !important;
+}
+
+/* Hide menu items until toggled open */
+.navbar-expand-lg .navbar-collapse {
+  display: none !important;
+}
+
+.navbar-expand-lg .navbar-collapse.show {
+  display: block !important;
+}
+
+/* Optional: make the dropdown panel readable */
+#navbarResponsive {
+  background: #0B1F3A;
 }
