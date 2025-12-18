@@ -49,7 +49,7 @@ permalink: /
           <i class="fas fa-route fa-stack-1x fa-inverse"></i>
         </span>
         <h4 class="my-3">Career Pathways</h4>
-        <p class="text-muted">Explore pathways (e.g., PSW, HVAC, IT, Accounting) and the best next steps.</p>
+        <p class="text-muted">Explore pathways (e.g., PSW, HVAC, IT, Accounting) and next steps.</p>
       </div>
 
       <div class="col-md-4">
@@ -57,12 +57,105 @@ permalink: /
           <i class="fas fa-circle fa-stack-2x"></i>
           <i class="fas fa-hand-holding-usd fa-stack-1x fa-inverse"></i>
         </span>
-        <h4 class="my-3">Funding Guidance</h4>
-        <p class="text-muted">OSAP funding direction and application guidance (free or very affordable sessions).</p>
+        <h4 class="my-3">Funding Guidance (OSAP)</h4>
+        <p class="text-muted">Understand eligibility, required documents, and what costs may be covered.</p>
+      </div>
+    </div>
+
+    <div class="row text-center">
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <i class="fas fa-circle fa-stack-2x"></i>
+          <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4 class="my-3">Resume & Job Prep</h4>
+        <p class="text-muted">Resume improvements, job search strategy, and interview preparation.</p>
+      </div>
+
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <i class="fas fa-circle fa-stack-2x"></i>
+          <i class="fas fa-language fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4 class="my-3">Multilingual Support</h4>
+        <p class="text-muted">Supportive communication for diverse communities, including newcomers.</p>
+      </div>
+
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <i class="fas fa-circle fa-stack-2x"></i>
+          <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4 class="my-3">Employers</h4>
+        <p class="text-muted">Connect employers with motivated candidates and training pathways.</p>
       </div>
     </div>
   </div>
 </section>
+
+<!-- PROJECTS / PORTFOLIO -->
+<section class="page-section bg-light" id="projects">
+  <div class="container">
+    <div class="text-center">
+      <h2 class="section-heading text-uppercase">Career Pathways (Examples)</h2>
+      <h3 class="section-subheading text-muted">
+        These are sample pathways — detail pages will be added next.
+      </h3>
+    </div>
+
+    <div class="row">
+      <!-- Card 1 -->
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="portfolio-item">
+          <a class="portfolio-link" href="{{ '/career-pathways/' | relative_url }}">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+            </div>
+            <img class="img-fluid" src="{{ '/assets/img/portfolio/01-thumbnail.jpg' | relative_url }}" alt="CPA / Accounting">
+          </a>
+          <div class="portfolio-caption">
+            <div class="portfolio-caption-heading">CPA / Accounting</div>
+            <div class="portfolio-caption-subheading text-muted">Planning + next steps</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="portfolio-item">
+          <a class="portfolio-link" href="{{ '/career-pathways/' | relative_url }}">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+            </div>
+            <img class="img-fluid" src="{{ '/assets/img/portfolio/02-thumbnail.jpg' | relative_url }}" alt="HVAC">
+          </a>
+          <div class="portfolio-caption">
+            <div class="portfolio-caption-heading">HVAC</div>
+            <div class="portfolio-caption-subheading text-muted">Skilled trades route</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-lg-4 col-sm-6 mb-4">
+        <div class="portfolio-item">
+          <a class="portfolio-link" href="{{ '/career-pathways/' | relative_url }}">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+            </div>
+            <img class="img-fluid" src="{{ '/assets/img/portfolio/03-thumbnail.jpg' | relative_url }}" alt="PSW">
+          </a>
+          <div class="portfolio-caption">
+            <div class="portfolio-caption-heading">PSW</div>
+            <div class="portfolio-caption-subheading text-muted">Healthcare pathway</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
 
 <!-- ABOUT MERITPOINT (NOT EMPTY ANYMORE) -->
 <section class="page-section bg-light" id="about">
