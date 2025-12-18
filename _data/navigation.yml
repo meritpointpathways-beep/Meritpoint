@@ -1,21 +1,15 @@
 nav:
   - title: "Home"
-    url: "/"
-
-  - title: "Services"
-    url: "/services/"
+    url: "{{ '/' | relative_url }}"
 
   - title: "Career Pathways"
-    url: "/career-pathways/"
+    url: "{{ '/pathways/' | relative_url }}"
 
   - title: "Funding"
-    url: "/funding/"
+    url: "{{ '/funding/' | relative_url }}"
 
   - title: "Employers"
-    url: "/employers/"
-
-  - title: "About"
-    url: "/about/"
+    url: "{{ '/employers/' | relative_url }}"
 
   - title: "Contact"
-    url: "/contact/"
+    url: "{{ '/contact/' | relative_url }}"
