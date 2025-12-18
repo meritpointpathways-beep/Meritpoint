@@ -1,117 +1,206 @@
 ---
-layout: home
-title: Meritpoint Pathways
-permalink: /Meritpoint/
-description: MeritPoint Pathways helps you plan education and careers with step-by-step guidance on programs, funding (OSAP), and career pathways.
+layout: default
+title: MeritPoint Pathways
+permalink: /
 ---
 
-# MeritPoint Pathways
+<!-- HERO / HEADER (FORCED) -->
+<header class="masthead"
+  style="
+    background-image: url('{{ '/assets/img/header-bg.jpg' | relative_url }}');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  ">
+  <div class="container">
+    <div class="intro-text">
+      <div class="intro-lead-in">Education + Career Consulting</div>
+      <div class="intro-heading text-uppercase">MeritPoint Pathways</div>
+      <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ '/contact/' | relative_url }}">
+        Book Free Consultation
+      </a>
+    </div>
+  </div>
+</header>
 
-## Education & Career Planning — Step by Step
+<!-- SERVICES -->
+<section class="page-section" id="services">
+  <div class="container">
+    <div class="text-center">
+      <h2 class="section-heading text-uppercase">What We Help With</h2>
+      <h3 class="section-subheading text-muted">
+        Practical, step-by-step guidance for students, career switchers, and working professionals.
+      </h3>
+    </div>
 
-MeritPoint Pathways helps **students**, **working professionals**, **career switchers**, and **older adults** make confident decisions about education and career direction—using clear roadmaps, practical timelines, and honest guidance.
+    <div class="row text-center">
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <i class="fas fa-circle fa-stack-2x"></i>
+          <i class="fas fa-graduation-cap fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4 class="my-3">Education Planning</h4>
+        <p class="text-muted">Program selection, prerequisites, and a realistic plan based on your goals.</p>
+      </div>
 
-**Free consultation • No upfront fees**  
-Based in **Mississauga, Ontario (Canada)**
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <i class="fas fa-circle fa-stack-2x"></i>
+          <i class="fas fa-route fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4 class="my-3">Career Pathways</h4>
+        <p class="text-muted">Explore pathways (e.g., PSW, HVAC, IT, Accounting) and the best next steps.</p>
+      </div>
 
-[Book a Free Consultation]({{ "/contact/" | relative_url }}) &nbsp;•&nbsp; [Explore Career Pathways]({{ "/career-pathways/" | relative_url }})
+      <div class="col-md-4">
+        <span class="fa-stack fa-4x">
+          <i class="fas fa-circle fa-stack-2x"></i>
+          <i class="fas fa-hand-holding-usd fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4 class="my-3">Funding Guidance</h4>
+        <p class="text-muted">OSAP funding direction and application guidance (free or very affordable sessions).</p>
+      </div>
+    </div>
+  </div>
+</section>
 
----
+<!-- ABOUT MERITPOINT (NOT EMPTY ANYMORE) -->
+<section class="page-section bg-light" id="about">
+  <div class="container">
+    <div class="text-center">
+      <h2 class="section-heading text-uppercase">About MeritPoint</h2>
+      <h3 class="section-subheading text-muted">
+        Genuine guidance — clear, supportive, and practical.
+      </h3>
+    </div>
 
-## What we help with
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <p class="text-muted" style="font-size: 1.05rem;">
+          MeritPoint Pathways provides education and career consulting for people who want clarity and confidence
+          in their next step. We support students, working professionals, career switchers, and older adults —
+          including multilingual communities and strong outreach to the Indian subcontinent.
+        </p>
+        <p class="text-muted" style="font-size: 1.05rem;">
+          Our focus is simple: understand your goals, map the right pathway, and guide you through the steps —
+          including OSAP funding direction where applicable.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
-### Program & Career Planning
-Choose the right program and build a realistic plan based on your goals, background, and timeline.
+<!-- HOW IT WORKS (TIMELINE WITH IMAGES) -->
+<section class="page-section" id="timeline">
+  <div class="container">
+    <div class="text-center">
+      <h2 class="section-heading text-uppercase">How It Works</h2>
+      <h3 class="section-subheading text-muted">A simple process from first call to next steps.</h3>
+    </div>
 
-### Funding Guidance (OSAP & more)
-Understand what may apply to you and what you need to prepare. Funding and coverage vary by person and program—our job is to make it clear.
+    <ul class="timeline">
+      <li>
+        <div class="timeline-image">
+          <img class="rounded-circle img-fluid" src="{{ '/assets/img/timeline/1.jpg' | relative_url }}" alt="Free consultation">
+        </div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4>Step 1</h4>
+            <h4 class="subheading">Free Consultation</h4>
+          </div>
+          <div class="timeline-body">
+            <p class="text-muted">We learn your goals, timeline, and background. No pressure, no upfront fees.</p>
+          </div>
+        </div>
+      </li>
 
-### Career Pathways Library
-Step-by-step guides across **Skilled Trades**, **Healthcare**, and **STEM & Professional Designations**—built to be easy to follow and supported by official references where relevant.
+      <li class="timeline-inverted">
+        <div class="timeline-image">
+          <img class="rounded-circle img-fluid" src="{{ '/assets/img/timeline/2.jpg' | relative_url }}" alt="Pathway plan">
+        </div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4>Step 2</h4>
+            <h4 class="subheading">Pathway Plan</h4>
+          </div>
+          <div class="timeline-body">
+            <p class="text-muted">We map program options, prerequisites, and the most practical next actions.</p>
+          </div>
+        </div>
+      </li>
 
-### Job Readiness & Career Progression
-Practical guidance for job search direction, role targeting, and next steps after training.
+      <li>
+        <div class="timeline-image">
+          <img class="rounded-circle img-fluid" src="{{ '/assets/img/timeline/3.jpg' | relative_url }}" alt="Funding direction">
+        </div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4>Step 3</h4>
+            <h4 class="subheading">Funding Direction (OSAP)</h4>
+          </div>
+          <div class="timeline-body">
+            <p class="text-muted">We guide you through the funding steps and documents you may need.</p>
+          </div>
+        </div>
+      </li>
 
----
+      <li class="timeline-inverted">
+        <div class="timeline-image">
+          <img class="rounded-circle img-fluid" src="{{ '/assets/img/timeline/4.jpg' | relative_url }}" alt="Next steps">
+        </div>
+        <div class="timeline-panel">
+          <div class="timeline-heading">
+            <h4>Step 4</h4>
+            <h4 class="subheading">Next Steps + Support</h4>
+          </div>
+          <div class="timeline-body">
+            <p class="text-muted">Applications, resume/job prep, and support as you move forward.</p>
+          </div>
+        </div>
+      </li>
 
-## Start here (quick links)
+      <li class="timeline-inverted">
+        <div class="timeline-image">
+          <h4>Start<br>Today!</h4>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
 
-- **Services:** what we do and how we support you  
-  → [View Services]({{ "/services/" | relative_url }})
+<!-- OUR APPROACH (NOT EMPTY ANYMORE) -->
+<section class="page-section bg-light" id="approach">
+  <div class="container">
+    <div class="text-center">
+      <h2 class="section-heading text-uppercase">Our Approach</h2>
+      <h3 class="section-subheading text-muted">Friendly, professional guidance focused on clarity and action.</h3>
+    </div>
 
-- **Career Pathways:** browse step-by-step roadmaps  
-  → [Browse Career Pathways]({{ "/career-pathways/" | relative_url }})
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <ul class="text-muted" style="font-size: 1.05rem;">
+          <li><strong>Clear guidance:</strong> we keep it simple and step-by-step.</li>
+          <li><strong>Practical options:</strong> pathways that match your timeline, budget, and goals.</li>
+          <li><strong>Supportive delivery:</strong> no judgement, no pressure.</li>
+          <li><strong>Funding direction:</strong> OSAP guidance where applicable (coverage varies by person).</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
 
-- **Funding:** OSAP and other guidance (eligibility varies)  
-  → [Funding & Eligibility Guidance]({{ "/funding/" | relative_url }})
+<!-- CONTACT CTA -->
+<section class="page-section" id="contact-cta">
+  <div class="container text-center">
+    <h2 class="section-heading text-uppercase">Contact</h2>
+    <p class="text-muted">Start with a free consultation or use our Google Form.</p>
 
-- **Employers:** hiring and talent matching support  
-  → [For Employers]({{ "/employers/" | relative_url }})
+    <p style="margin-bottom: 0.25rem;"><strong>Phone:</strong> 437-882-3664</p>
+    <p style="margin-bottom: 0.25rem;"><strong>Email:</strong> info@meritpoint.ca</p>
+    <p style="margin-bottom: 0.75rem;"><strong>Website:</strong> MeritPoint.ca</p>
 
----
-
-timeline:
-  title: "How It Works"
-  text: "A simple process from first call to next steps."
-  section: timeline
-  events:
-    - title: "Free consultation"
-      year: ""
-      desc: "Share your goal and background. We clarify options and next steps."
-      image: "/assets/img/timeline/1.jpg"
-      alt: "Consultation"
-
-    - title: "Plan & eligibility"
-      year: ""
-      desc: "We review program fit and funding direction (where applicable)."
-      image: "/assets/img/timeline/2.jpg"
-      alt: "Planning"
-
-    - title: "Step-by-step roadmap"
-      year: ""
-      desc: "You get a clear checklist, timeline, and what to do next."
-      image: "/assets/img/timeline/3.jpg"
-      alt: "Roadmap"
-
-    - title: "Support through action"
-      year: ""
-      desc: "We help you move forward with applications and career progress."
-      image: "/assets/img/timeline/4.jpg"
-      alt: "Support"
-
----
-
-## Contact
-
-Ready to start?
-
-- **Phone:** 437-882-3664  
-- **Email:** info@meritpoint.ca  
-- **Website:** MeritPoint.ca  
-
-→ Go to the [Contact page]({{ "/contact/" | relative_url }}) to send a request or book a free consultation.
-<script>
-(function () {
-  // Fallback toggle (works even if Bootstrap JS isn't loading)
-  function getTarget(btn) {
-    var sel = btn.getAttribute('data-bs-target') || btn.getAttribute('data-target');
-    if (sel) return document.querySelector(sel);
-    return document.querySelector('#navbarResponsive') || document.querySelector('.navbar-collapse');
-  }
-
-  document.addEventListener('click', function (e) {
-    var btn = e.target.closest('.navbar-toggler');
-    if (!btn) return;
-
-    e.preventDefault();
-
-    var target = getTarget(btn);
-    if (!target) return;
-
-    target.classList.toggle('show');
-
-    var expanded = btn.getAttribute('aria-expanded') === 'true';
-    btn.setAttribute('aria-expanded', expanded ? 'false' : 'true');
-  }, true);
-})();
-</script>
+    <a class="btn btn-primary btn-xl text-uppercase" href="https://docs.google.com/forms/d/e/1FAIpQLScDpbsNOOw67Fpuw5e6sZjkYzZf6iuP6OrcAl5bmmX2wgs1_A/viewform?usp=header" target="_blank" rel="noopener">
+      Start With Google Form
+    </a>
+  </div>
+</section>
