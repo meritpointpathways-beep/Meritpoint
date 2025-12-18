@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+
+    {% if site.description %}
+      <meta name="description" content="{{ site.description }}">
+    {% endif %}
+
+    <!-- Theme CSS (most GitHub Pages themes compile to this path) -->
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+    <!-- Your overrides -->
+    <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+  </head>
+
+  <body>
+    {% include nav.html %}
+
+    <div
+      class="page-banner"
+      style="background-image:url('{{ '/assets/img/header-bg.jpg' | relative_url }}');"
+      aria-hidden="true"
+    ></div>
+
+    <main class="container">
+      {{ content }}
+    </main>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const btn = document.getElementById("menuBtn");
+        const menu = document.getElementById("mobileMenu");
+        if (!btn || !menu) return;
+
+        menu.classList.add("hidden");
+        btn.setAttribute("aria-expanded", "false");
+
+        btn.addEventListener("click", function () {
+          menu.classList.toggle("hidden");
+          btn.setAttribute("aria-expanded", menu.classList.contains("hidden") ? "false" : "true");
+        });
+
+        menu.querySelectorAll("a").forEach(function (a) {
+          a.addEventListener("click", function () {
+            menu.classList.add("hidden");
+            btn.setAttribute("aria-expanded", "false");
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
