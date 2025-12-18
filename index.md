@@ -1,5 +1,5 @@
 ---
-layout: Home
+layout: home
 title: Meritpoint Pathways
 permalink: /Meritpoint/
 description: MeritPoint Pathways helps you plan education and careers with step-by-step guidance on programs, funding (OSAP), and career pathways.
